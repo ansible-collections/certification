@@ -11,14 +11,6 @@ You should run these checks before uploading Ansible collections to Automation H
 Certification checks are not a substitute for a comprehensive testing strategy.
 You should add unit and integration tests for robust test coverage that validates the functionality and behavior of your modules, plugins, and roles.
 
-We recommend these tools for comprehensive testing and validation:
-
-- [Ansible Nox](https://ansible.readthedocs.io/projects/antsibull-nox/introduction/)
-- [Collection Template Workflows](https://github.com/ansible-collections/collection_template/tree/main/.github/workflows)
-- [Ansible Content Actions](https://github.com/ansible/ansible-content-actions/)
-
-You can also learn about good practices for developing and maintaining Ansible collections by applying the [Ansible community package collection requirements](https://docs.ansible.com/ansible/devel/community/collection_contributors/collection_requirements.html).
-
 ## Preparing collections for certification
 
 Before uploading your collection to Ansible Automation Hub, you should verify that it meets certification requirements.
